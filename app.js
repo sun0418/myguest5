@@ -26,7 +26,7 @@ app.listen(8000);
 console.log('나 8000 포트에서 돌아간다!');
 
 app.get('/', function(req, res){
-	res.send("안녕 세상!");
+	res.send("codio.com에서 작성!");
 });
 
 app.get('/test', function(req, res){
